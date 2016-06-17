@@ -1,7 +1,4 @@
 ghost:
   image: ghost
-  volume_driver: csc-convoy-gluster
-  volumes:
-    - flowstudio:/opt/cisco/flowstudio/.data
   ports:
     - ${public_port}:2368
