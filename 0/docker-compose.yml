@@ -1,10 +1,7 @@
 ghost:
   image: ghost
-  labels:
-    io.rancher.scheduler.affinity:host_label: FNAME=HOST01
-    io.rancher.container.start_once: 'true'
   volume_driver: csc-convoy-gluster
   volumes:
-     - flowstudio:/opt/cisco/flowstudio/.data
+    - flowstudio:/opt/cisco/flowstudio/.data
   ports:
     - ${public_port}:2368
