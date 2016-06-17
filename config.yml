@@ -1,5 +1,8 @@
-name: Ghost
+name: Test Ghost
 description: |
   Blog powered by Ghost
 version: v0.1-educaas
-category: Blogging
+category: Demo Services
+maintainer: Cisco
+license: # The license
+projectURL: # A URL related to the catalog entry
